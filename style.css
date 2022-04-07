@@ -44,9 +44,12 @@ li {
 
 .placeholder {
     display: flex;
+    flex: 1 1 auto;
     align-self: flex-end;
     justify-content: flex-start;
     margin: auto;
+    max-height: 300px;
+    width: auto;
 }
 
 .top1a {
@@ -78,4 +81,55 @@ li {
 .text1 {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.section2 {
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 100px;
+    
+}
+
+.big2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container div {
+    color: #1F2937;
+    font-size: 18px;
+
+}
+
+.section2 img {
+    display: flex;
+    flex: 1 1 auto;
+    max-height: 200px;
+    box-sizing: border-box;
+    width: auto;
+    border: 5px solid #3882F6;
+    border-radius: 20%;
+    justify-content: space-around;
+    margin: 15px;
+
+}
+
+.flower1, .flower2, .flower3, .flower4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    box-sizing: content-box;
+
 }
