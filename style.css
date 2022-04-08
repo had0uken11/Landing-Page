@@ -179,6 +179,44 @@ li {
     font-weight: 600;
     margin-top: 48px;
     margin-left: 700px;
+}
 
+.section4 {
+    height: 450px;
+    background-color: white;
+}
 
+.bluebox{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 75px 50px 75px;
+    margin: 150px;
+}
+
+.CTA {
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 400;
+    border-radius: 13%;
+    border: white solid 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    width: fit-content;
+    height: auto;
+}
+
+.text2 {
+    color: white;
+    justify-content: flex-start;
+    margin-right: 60px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: 200;
 }
