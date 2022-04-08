@@ -220,3 +220,16 @@ li {
     font-size: 20px;
     font-weight: 200;
 }
+
+.footer {
+    display: block;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    font-size: 18px;
+    font-stretch: extra-expanded;
+}
