@@ -1,6 +1,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    viewport-fit: 100%;
+}
+
+.section1, .section2, .section3 {
+    max-height: 450px;
 }
 
 .section1 {
@@ -47,9 +52,11 @@ li {
     flex: 1 1 auto;
     align-self: flex-end;
     justify-content: flex-start;
-    margin: auto;
-    max-height: 300px;
-    width: auto;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: auto;
+    width: 40px;
 }
 
 .top1a {
@@ -120,8 +127,13 @@ li {
     border: 5px solid #3882F6;
     border-radius: 20%;
     justify-content: space-around;
-    margin: 15px;
+    margin-left: 8px;
+    margin-bottom: 15px;
 
+}
+
+.section2 {
+    height: 450px;
 }
 
 .flower1, .flower2, .flower3, .flower4 {
@@ -130,6 +142,43 @@ li {
     justify-content: center;
     align-items: center;
     margin: 8px;
-    box-sizing: content-box;
+    box-sizing: border-box;
+
+}
+
+.flowertext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+
+.boldtext {
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-left: 700px;
+
 
 }
